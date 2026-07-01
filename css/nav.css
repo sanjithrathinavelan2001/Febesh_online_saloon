@@ -1,0 +1,62 @@
+.custom-navbar{
+
+background:#111;
+
+border:none;
+
+box-shadow:
+0 2px 15px rgba(0,0,0,.4);
+}
+
+.navbar-brand{
+
+color:#ffd700 !important;
+
+font-size:24px;
+
+font-weight:bold;
+
+letter-spacing:1px;
+}
+
+.navbar-nav li a{
+
+color:white !important;
+
+font-size:15px;
+
+font-weight:600;
+
+transition:.3s;
+}
+
+.navbar-nav li a:hover{
+
+color:#ffd700 !important;
+
+background:none !important;
+}
+
+.navbar-toggle{
+
+border-color:#ffd700;
+}
+
+.navbar-toggle .icon-bar{
+
+background:#ffd700;
+}
+
+@media(max-width:768px){
+
+.navbar-nav{
+
+text-align:center;
+}
+
+.navbar-nav li{
+
+display:block;
+}
+
+}
