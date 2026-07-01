@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Products</title>
+
+<meta charset="utf-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<link rel="stylesheet"
+href="css/product.css">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+
+<div class="container">
+
+<div class="navbar-header">
+
+<button
+type="button"
+class="navbar-toggle"
+data-toggle="collapse"
+data-target="#menu">
+
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+
+</button>
+
+<a class="navbar-brand"
+href="index.html">
+
+FEBESH SALOON
+
+</a>
+
+</div>
+
+<div
+class="collapse navbar-collapse"
+id="menu">
+
+<ul class="nav navbar-nav">
+
+<li>
+<a href="index.html">Home</a>
+</li>
+
+<li>
+<a href="services.html">Services</a>
+</li>
+
+<li>
+<a href="offers.html">Offers</a>
+</li>
+
+<li>
+<a href="product.html">Products</a>
+</li>
+
+<li>
+<a href="cart.html">Cart</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<div class="container">
+
+<h1 class="page-title">
+
+OUR PRODUCTS
+
+</h1>
+
+<div class="row">
+
+<div class="col-md-4">
+
+<div class="product-card">
+
+<img
+src="images/pro1.png"
+class="product-img">
+
+<h3>Hair Shampoo</h3>
+
+<h4>₹499</h4>
+
+<input
+type="number"
+id="qty1"
+min="1"
+max="10"
+value="1"
+class="qty-box">
+
+<br><br>
+
+<a
+href="cart.html"
+onclick="addToCart('Hair Shampoo',499,'qty1')"
+class="btn btn-gold">
+
+Add To Cart
+
+</a>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="product-card">
+
+<img
+src="images/pro2.png"
+class="product-img">
+
+<h3>Hair Cream</h3>
+
+<h4>₹399</h4>
+
+<input
+type="number"
+id="qty2"
+min="1"
+max="10"
+value="1"
+class="qty-box">
+
+<br><br>
+
+<a
+href="cart.html"
+onclick="addToCart('Hair Cream',399,'qty2')"
+class="btn btn-gold">
+
+Add To Cart
+
+</a>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="product-card">
+
+<img
+src="images/pro3.png"
+class="product-img">
+
+<h3>Hair Color</h3>
+
+<h4>₹699</h4>
+
+<input
+type="number"
+id="qty3"
+min="1"
+max="10"
+value="1"
+class="qty-box">
+
+<br><br>
+
+<a
+href="cart.html"
+onclick="addToCart('Hair Color',699,'qty3')"
+class="btn btn-gold">
+
+Add To Cart
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="js/product.js"></script>
+
+</body>
+
+</html>
